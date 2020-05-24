@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="550.0" style="-fx-background-color: #00FF99;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.PomWorkController">
+   <children>
+      <AnchorPane layoutY="70.0" prefHeight="594.0" prefWidth="550.0" style="-fx-background-color: #FFFF00;" AnchorPane.bottomAnchor="1.0" AnchorPane.leftAnchor="1.0" AnchorPane.rightAnchor="1.0" AnchorPane.topAnchor="60.0">
+         <children>
+            <Label fx:id="labelWork" alignment="CENTER" contentDisplay="CENTER" layoutX="51.0" layoutY="133.0" prefHeight="138.0" prefWidth="449.0" text="Label" textAlignment="CENTER" textFill="#6f4e4e">
+               <font>
+                  <Font name="Eras Bold ITC" size="70.0" />
+               </font>
+            </Label>
+            <Label fx:id="labelWhat" alignment="CENTER" contentDisplay="CENTER" layoutX="51.0" layoutY="14.0" prefHeight="111.0" prefWidth="449.0" text="Label" textAlignment="CENTER" textFill="#6f4e4e">
+               <font>
+                  <Font name="Eras Bold ITC" size="80.0" />
+               </font>
+            </Label>
+            <Button fx:id="startWork" layoutX="275.0" layoutY="316.0" mnemonicParsing="false" onAction="#showStartWork" prefHeight="80.0" prefWidth="261.0" style="-fx-background-color: #FF0000;" text="START WORK">
+               <font>
+                  <Font name="Bauhaus 93" size="34.0" />
+               </font>
+            </Button>
+            <Button fx:id="startBreak" layoutX="14.0" layoutY="316.0" mnemonicParsing="false" onAction="#showStartBreak" prefHeight="80.0" prefWidth="246.0" style="-fx-background-color: #0066CC;" text="START BREAK">
+               <font>
+                  <Font name="Bauhaus 93" size="34.0" />
+               </font>
+            </Button>
+            <Button fx:id="pause" layoutX="71.0" layoutY="425.0" mnemonicParsing="false" onAction="#showStop" prefHeight="80.0" prefWidth="189.0" style="-fx-background-color: #FF8C00;" text="PAUSE">
+               <font>
+                  <Font name="Bauhaus 93" size="32.0" />
+               </font>
+            </Button>
+            <Button fx:id="continueTimer" layoutX="276.0" layoutY="425.0" mnemonicParsing="false" onAction="#showContinueTimer" prefHeight="80.0" prefWidth="189.0" style="-fx-background-color: #99CC00;" text="CONTINUE">
+               <font>
+                  <Font name="Bauhaus 93" size="31.0" />
+               </font>
+            </Button>
+            <Button fx:id="home" layoutX="220.0" layoutY="532.0" mnemonicParsing="false" onAction="#goHome" prefHeight="47.0" prefWidth="111.0" style="-fx-background-color: #0099FF;" text="HOME" textFill="#6f4e4e">
+               <font>
+                  <Font name="Bauhaus 93" size="26.0" />
+               </font>
+            </Button>
+            <Label fx:id="resWork" alignment="CENTER" contentDisplay="CENTER" layoutX="417.0" layoutY="522.0" prefHeight="56.0" prefWidth="92.0" textAlignment="CENTER">
+               <font>
+                  <Font name="Broadway" size="25.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="152.0" layoutY="-3.0" prefHeight="63.0" prefWidth="246.0" text="POMODORO" textAlignment="CENTER" textFill="#c91717">
+         <font>
+            <Font name="Bernard MT Condensed" size="35.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
